@@ -1,0 +1,33 @@
+body {
+	font-family: sans-serif;
+}
+
+em {
+	font-weight: 100;
+}
+
+/*MEDIA QUERIES BELONG AT THE BOTTOM OF STYLESHEETS*/
+/*@media TYPE and (FEATURE) {
+
+}*/
+
+@media screen and (min-width: 768px) {
+	.column {
+		width: 300px;
+		float: left;
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {/*768px BREAKPOINT*/
+	body {
+		background-color: #000;
+		color: #fff;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		background-color: teal;
+	}
+}
